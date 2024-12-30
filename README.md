@@ -33,12 +33,9 @@ The ETL process will extract and store the following data every day at noon (loc
 | 2023 | 1     | 6   | 11      | 10      |
 
 ## Instructions
-1. **Download Raw Data**: Use `curl wttr.in/casablanca` to fetch weather data.
+1. **Download Raw Data**: Use `curl with.in/Casablanca` to fetch weather data.
 2. **Extract Data**: Parse the raw data to extract actual and forecasted temperatures.
 3. **Transform Data**: Format the extracted data into a tabular log file.
 4. **Load Data**: Save the formatted data into a log file for analysis.
 5. **Automation**: Schedule the script to run daily using cron jobs or a similar scheduler.
 
-## Authors
-- Jeff Grossman
-- Other Contributors: Rav Ahuja
